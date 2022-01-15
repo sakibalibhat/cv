@@ -1,0 +1,37 @@
+body  {
+        background-color : #e6ffff;
+        }
+hr {
+     border:none;
+     border-top:1px dotted grey;
+     border-width: 5px;
+     width: 3%;
+      }
+title,h4,h5,h2,p,li,td,a,h1,label,input,textarea {
+       font-family: Arial;
+}
+
+h1,h2,h3,h4,h5,h6 {
+
+color: #24A19C;
+}
+
+.changeColor:hover{
+    color : gold;
+}
+
+
+.link:hover{
+      color : red;
+}
+
+.stars{
+    color : gold;
+}
+
+.highlight {
+ color : gold;
+}
+.dim{
+ color : grey;
+}
