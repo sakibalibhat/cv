@@ -1,5 +1,7 @@
 body  {
-        background-color : #e6ffff;
+
+       background-color :  #e6ffff;
+
         }
 hr {
      border:none;
@@ -8,7 +10,7 @@ hr {
      width: 3%;
       }
 title,h4,h5,h2,p,li,td,a,h1,label,input,textarea {
-       font-family: Arial;
+       font-family: verdana, sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -24,7 +26,12 @@ color: #24A19C;
 .link:hover{
       color : red;
 }
-
+.footer-linked:hover{
+      color : red;
+}
+.footer-link:hover{
+      color : red;
+}
 .stars{
     color : gold;
 }
@@ -34,4 +41,25 @@ color: #24A19C;
 }
 .dim{
  color : grey;
+}
+.footer-link{
+color:black;
+font-weight:normal;
+position:relative;
+top:43px;
+font-size:13px
+}
+.footer-linked{
+color:black;
+font-weight:normal;
+    position: relative;
+    left: 600px;
+    font-family: sans-serif;
+    font-size: 27px;
+}
+.copy{
+    position: relative;
+    left: 640px;
+    color: #24A19C;
+}
 }
